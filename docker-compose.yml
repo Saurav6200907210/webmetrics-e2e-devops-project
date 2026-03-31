@@ -1,0 +1,50 @@
+version: "3.8"
+
+services:
+  frontend:
+    build: .
+    container_name: react-app
+
+    ports:
+      - "5177:80"
+
+    restart: unless-stopped
+
+    env_file:
+      - .env
+
+    volumes:
+      - .:/app
+      - /app/node_modules
+
+    working_dir: /app
+
+    networks:
+      - app-network
+
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5177"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+    security_opt:
+      - no-new-privileges:true
+
+    init: true
+
+    labels:
+      project: docker-react-app
+
+volumes:
+  app_data:
+
+networks:
+  app-network:
+    driver: bridge
