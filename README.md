@@ -238,6 +238,11 @@ npm run dev
 * ☸️ Deployed on Kubernetes
 * 📊 Integrated monitoring (Grafana + Prometheus)
 
+## 📦 Docker Image
+https://hub.docker.com/repository/docker/saurav6200/webmetrics-app/general
+
+## 🚀 Release
+v1.0 - Initial DevOps deployment
 ---
 
 # 💼 Resume Line (🔥)
