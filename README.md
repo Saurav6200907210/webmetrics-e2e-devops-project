@@ -115,7 +115,7 @@ Kubernetes Deploy 🚀
 
 ## 📸 Jenkins Pipeline
 
-👉 *(Add Jenkins pipeline screenshot here)*
+![Architecture](public/jenkins.png)
 
 ---
 
@@ -126,8 +126,11 @@ Kubernetes Deploy 🚀
 * Stored in DockerHub
 
 ## 📸 Docker Build & Push
+![Architecture](public/images.png)
 
-👉 *(Add docker build screenshot here)*
+
+![Architecture](public/dockerhub.png)
+
 
 ---
 
@@ -139,11 +142,11 @@ Kubernetes Deploy 🚀
 
 ## 📸 Kubernetes Pods
 
-👉 *(Add kubectl pods screenshot here)*
+![Architecture](public/deployments.png)
 
 ## 📸 Kubernetes Services
 
-👉 *(Add service screenshot here)*
+![Architecture](public/service.png)
 
 ---
 
@@ -155,8 +158,7 @@ Kubernetes Deploy 🚀
 
 ## 📸 Terraform Output
 
-👉 *(Add terraform apply screenshot here)*
-
+![Architecture](public/terraform.png)
 ---
 
 # 🤖 Configuration Management (Ansible)
@@ -170,7 +172,7 @@ Kubernetes Deploy 🚀
 
 ## 📸 Ansible Execution
 
-👉 *(Add ansible output screenshot here)*
+![Architecture](public/Ansible.png)
 
 ---
 
