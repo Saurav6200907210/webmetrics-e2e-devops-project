@@ -94,7 +94,7 @@ Developer → GitHub → Webhook → Jenkins → Docker → DockerHub → Kubern
 
 ## 📸 DevOps Architecture
 
-(public/Architure.png)
+![Architecture](public/Archicture.png)
 
 ---
 
